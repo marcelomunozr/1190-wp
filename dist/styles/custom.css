@@ -1,0 +1,327 @@
+section {
+    bottom: auto;
+    height: auto;
+    left: auto;
+    overflow: visible;
+    right: auto;
+    top: auto;
+    width: 100%;
+    z-index: 1;
+}
+
+
+@media (min-width: 768px) { 
+	section {
+	    bottom: 0;
+	    height: 100vh;
+	    left: 0;
+	    overflow: hidden;
+	    right: 0;
+	}
+}
+.imgon{
+	cursor: pointer;
+}
+.logo {
+	margin: 10px;
+	width: 160px;
+	height: 90px;
+	float: left;
+}
+.navbar-toggle {
+	border-color: white: ;
+}
+.navbar-toggle {
+    background-color: white;
+	margin-top: 15px;
+ }
+.navbar-toggle .icon-bar {
+    background: black;
+}
+@media (min-width: 768px) {
+	.logo {
+		margin: 0px auto;
+		height: 156px;
+	    width: 280px;
+	    float: none
+	}
+}
+
+aside.sidebar {
+	width: 100%;
+    position: static;
+    right: auto;
+    top: auto;
+    z-index: 10;
+}
+aside ul.the-menu {
+    list-style: outside none none;
+    margin: 20px 0 30px;
+}
+@media (min-width: 768px) {
+	aside.sidebar {
+		max-width: 280px;
+	    position: absolute;
+	    right: 40px;
+	    top: 20px;
+	}
+	aside ul.the-menu {
+	    margin: 100px 0 30px;
+	}
+}
+.inside-zone {
+	bottom: auto;
+    left: auto;
+    width: 100%;
+    position: static;
+    z-index: 3;
+    padding: 10px;
+}
+.inside-zone.contact {
+    min-width: 100%;
+}
+.inside-zone ul.nav-tabs li a{
+	font-size: 14px;
+}
+.inside-zone .flow{
+    max-height: 190px;
+}
+.inside-zone .flow.in-img{
+    max-height: 300px;
+}
+.inside-zone .flow ul li, .inside-zone p{
+	font-size: 13px;
+}
+.inside-zone .flow ul{
+	padding-left: 17px;
+}
+.videaso.en-interiores{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	display: block;
+	z-index: 100;
+}
+@media (min-width: 768px) {
+	.inside-zone {
+		bottom: 120px;
+	    left: 40px;
+    	max-height: 340px;
+        max-width: 440px;
+	    position: absolute;
+	    z-index: 3;
+	    padding: 0;
+	}
+	.inside-zone.contact {
+	    min-width: 420px;
+	    max-height: 450px;
+	}
+	.navbar-collapse.collapse{
+		padding: 0;
+	}
+}
+.panel-default>.panel-heading{
+	background: none;
+	border: none;
+	color: #fff;
+	background-color: transparent;
+	padding: 0;
+}
+.panel-default>.panel-heading a{
+	color: #fff;
+	font-size: 13px;
+}
+.panel-default>.panel-heading a:hover,
+.panel-default>.panel-heading a:focus,
+.panel-default>.panel-heading a:active{
+	color: #fff;
+	text-decoration: none;
+}
+.panel-group .panel{
+	background-color: transparent;
+	border: none;
+}
+.panel-default>.panel-heading span{
+	font-size: 8px;
+	margin-right: 3px;
+	position: relative;
+	top: 0;
+}
+.inside-zone .flow .panel-group .panel ul{
+	padding-left: 25px;
+}
+a:hover{
+	opacity: .8;
+}
+.inside-zone h2{
+	text-transform: uppercase;
+}
+.videaso{
+	max-width: 640px;
+	margin: 140px auto 0;
+}
+.videaso iframe{
+	width: 100%;
+	min-height: 360px;
+}
+.ngg-gallery-thumbnail{
+	border: none!important;
+	background: none!important;
+	margin: 0!important;
+}
+div#shDisplay img#shTopImg{
+	position: relative;
+	max-width: 720px!important;
+	border: none!important;
+}
+@media (max-width: 768px) {
+	aside.sidebar{
+		max-width: 100%;
+	}
+	.videaso{
+	    margin: 10px auto 0;
+	}
+	.videaso iframe{
+		max-height: 200px;
+	    height: 200px!important;
+	}
+	section{
+	    min-height: 100vh;
+	}
+	.inside-zone ul.nav-tabs li a{
+		font-size: 12px!important;
+	}
+	.inside-zone.contact{
+		max-height: inherit;
+	}
+	.wpcf7 .row{
+		margin: 0;
+	}
+	.inside-zone ul.nav-tabs li{
+		width: 50%;
+		margin: 0;
+	}
+	.inside-zone ul.nav-tabs li a{
+		margin-bottom: 2px;
+	    margin-bottom: 2px;
+	    padding: 6px 5px;
+	}
+	.inside-zone{
+		max-height: 500px;
+	}
+	#video.videaso.en-interiores{
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		bottom: inherit;
+		right: 0;
+		z-index: 1;
+		display: block;
+		opacity: 0;
+	}
+	.logo-videaso{
+		margin-top: 0px;
+		zoom: .8;
+	}
+	aside.sidebar{
+		z-index: 300;
+		position: relative;
+	}
+	.imgon{
+		overflow: hidden;
+	}
+}
+.close-videaso{
+	position: absolute;
+	bottom: 100%;
+	padding: 5px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+	display: block;
+	float: none;
+	font-size: 20px;
+	cursor: pointer;
+	right: 0;
+}
+div.wpcf7-mail-sent-ok{
+	background: #fff!important;
+}
+.logo-videaso {
+    height: 156px;
+    width: 280px;
+    float: none;
+    background: url(../images/logo.png) no-repeat;
+    background-size: 100%;
+    margin: 200px auto 0;
+    z-index: 99999;
+    position: relative;
+    display: none;
+}
+.play-videaso {
+    height: 68px;
+    width: 68px;
+    float: none;
+    background: url(../images/play-videaso.png) no-repeat;
+    background-size: 100%;
+    margin: 10px auto;
+    z-index: 99999;
+    position: relative;
+    cursor: pointer;		
+    display: none;
+}
+@media (max-width: 768px) {
+	.logo-videaso {
+		margin-top: 80px;
+	}
+}
+#TB_window{
+    top: 57%!important;
+	background: none!important;
+}
+#TB_window img#TB_Image{
+	margin: 0 auto!important;
+	display: block;
+	float: none;
+	position: relative;
+	border: none!important;
+	max-width: 80%!important;
+	height: auto!important;
+}
+#TB_window #TB_ImageOff .screen-reader-text{
+	position: absolute!important;
+	color: #fff!important;
+	font-size: 0!important;
+	right: 0!important;
+	margin-right: 10%!important;
+	font-weight: bold!important;
+	bottom: 100%;
+	font-family: Verdana, sans-serif!important;
+}
+#TB_caption{
+	margin-left: 10%!important;
+	padding: 10px 0!important;
+	color: #fff!important;
+}
+#TB_caption a,
+#TB_secondLine a{
+	font-weight: bold!important;
+	color: #fff;
+}
+#TB_caption a:hover,
+#TB_secondLine a:hover{
+	color: #fff;
+}
+#TB_window #TB_ImageOff .screen-reader-text:after{
+	content: "X";
+	font-size: 16px!important;
+	display: block;
+	position: relative;
+}
+#TB_closeWindow{
+	display: none!important;
+}

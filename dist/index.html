@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <title>1190</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="stylesheet" href="styles/custom.css">
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700,400italic,300italic,700italic' rel='stylesheet' type='text/css'><!-- font-family: 'Roboto Condensed', sans-serif; -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <section class="homi" style="background: url('images/bg-homi.jpg') no-repeat center top fixed;-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size: cover;">
+      <div class="top-text hidden-xs">
+        <h6>1190 sport rights distributors world wide</h6>
+      </div>
+      <aside class="sidebar">
+        <a href="#"><div class="logo"></div></a>
+         <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+         
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="the-menu">
+            <li><a href="about.html">SOBRE 1190</a></li>
+            <li><a href="productos-y-servicios.html">PRODUCTOS Y SERVICIOS</a></li>
+            <li><a href="galeria.html">GALERÍA</a></li>
+            <li><a href="contact.html">CONTACTO</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+
+      </aside>
+      <div id="video"></div>
+    </section>
+    
+
+    <script src="scripts/vendor.js"></script>
+    <script src="scripts/jquery.youtubebackground.js"></script>
+    <script>
+      jQuery(function($){
+
+        //check if the browser width is less than or equal to the large dimension of an iPad
+        if (!$(window).width() <= 768) {
+          $('#video').YTPlayer({
+            fitToBackground: true,
+            videoId: '-rwhiCLV0uo?vq=hd1080'//S2VIR9pmPVc,
+          });
+          
+          $(window).on('load', function() {
+            $('#video').fadeIn();
+          });
+        }
+       
+      });
+    </script>
+    
+    <script src="scripts/plugins.js"></script>
+    
+
+    <script src="scripts/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+  </body>
+</html>
